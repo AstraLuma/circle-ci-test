@@ -5,4 +5,6 @@ jobs:
       - image: astraluma/entrypoint-debug
     steps:
       - run: __STEP_COMMAND_ONE__
+        shell: /entrypoint
       - run: __STEP_COMMAND_TWO__
+        shell: /entrypoint
