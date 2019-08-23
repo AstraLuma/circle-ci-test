@@ -1,0 +1,8 @@
+version: 2
+jobs:
+  test:
+    docker:
+      - image: astraluma/entrypoint-debug
+    steps:
+      - run: __STEP_COMMAND_ONE__
+      - run: __STEP_COMMAND_TWO__
